@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <form action="http://requestb.in/tmxys7tn" method="post">
+
+  <body>
+    <header>
+      <img class="logo" src="images/Starwars1.jpg" />
+      <h1>Force User Sign Up Form</h1>
+    </header>
+    <div class="container">
+      <div class="container-1">
+    <fieldset class="jedi-1">
+      <legend>Basic Info</legend>
+      <ul>
+        <p>
+      <label id="full-name">Full Name</label>
+      <input  type="text" placeholder="Your Name" name="Full Name" tabindex="1"required/>
+        </p>
+        <p>
+      <label id="profile-pic">Profile Pic</label>
+      <input type="button" placeholder="Pic" name="Profile Pic" value="Upload" />
+        </p>
+        <p>
+      <label id="email-address">Email Address</label>
+      <input type="text" placeholder="Email Address" name="Email Address" />
+        </p>
+        <p>
+      <fieldset>
+        <legend>Side</legend>
+        <div class="sides">
+        <label id="light">Light</label>
+        <input type="checkbox" name="Light" />
+        </div>
+        <div class="sides">
+        <label id="dark">Dark</label>
+        <input type="checkbox" name="Dark" />
+        </div>
+
+      </fieldset>
+        </p>
+      <label id="origin-story">Origin Story</label>
+      <textarea rows="6" cols="60" name="Origin Story" required></textarea>
+      </ul>
+    </fieldset>
+      </div>
+      <div class="container-2">
+    <fieldset class="jedi-1">
+      <legend>Abilities</legend>
+      <ul>
+        <p>
+      <label for="lightsaber-color">Lightsaber Color</label>
+      <select id="lightsaber-color" name="Lightsaber Color">
+        <option value="bl">Blue</option>
+        <option value="gn">Green</option>
+        <option value="rd">Red</option>
+        <option value="pl">Purple</option>
+        <option value="yw">Yellow</option>
+        <option value="wh">White</option>
+        <option value="bl">Black</option>
+      </select>
+        </p>
+        <p>
+      <label id="how-many-objects-can-you-levitate-at-once?">How many objects can you levitate at once?</label>
+      <input type="number" min="1" value="100" name="Quantity" />
+        </p>
+        <p>
+          <label>Favorite Ability</label>
+          <input type="text" placeholder="Force Choke" />
+        </p>
+        <p>
+          <fieldset>
+            <legend>Pilot Experience</legend>
+            <div class="pilot">
+            <input id="speeder" type="checkbox" />
+            <label for="speeder">Speeder</label>
+            </div>
+            <div class="pilot">
+            <input id="transport" type="checkbox" />
+            <label for="transport">Transport</label>
+            </div>
+            <div class="pilot">
+            <input id="x-wing" type="checkbox" />
+            <label for="x-wing">X-wing</label>
+            </div>
+            <div class="pilot">
+            <input id="tie-fighter" type="checkbox" />
+            <label for="tie-fighter">TIE Fighter</label>
+            </div>
+            <div class="pilot">
+            <input id="starship" type="checkbox" />
+            <label for="starship">Starship</label>
+            </div>
+            <div class="pilot">
+            <input id="bantha" type="checkbox" />
+            <label for="bantha">Bantha</label>
+            </div>
+          </fieldset>
+
+        </p>
+      </ul>
+    </fieldset>
+      </div>
+      <div class="container-3">
+    <fieldset class="jedi-1">
+      <legend>Application Info</legend>
+      <p>
+      <label id="desired-mentor">Desired Mentor</label>
+      <input type="text" name="Desired Mentor"/>
+      </p>
+      <p>
+        <label id="application-date">Application Date</label>
+        <input type="date" name="Application Date" value="01/02/2017"required />
+      </p>
+      <p>
+        <label id="application-date">Application Password</label>
+        <input type="password" name="Application Password" required/>
+      </p>
+      <p>
+        <label id="how-do-you-get-to-the-dark-side?">How do you get to the dark side?</label>
+        <textarea rows="6" cols="60"></textarea>
+      </p>
+      <input type="reset" />
+      <input type="submit" value="Apply" />
+    </fieldset>
+      </div>
+  </body>
+</div>
+<footer>
+  <img class="saber" src="images/lightsabers-clash.jpg" />
+  &copy 2017 Jedi Council
+</footer>
+</form>
+</html>

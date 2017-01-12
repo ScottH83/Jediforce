@@ -1,0 +1,36 @@
+body{
+  background: linear-gradient( to top, white, black);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header {
+  text-align: center;
+}
+label {
+  display: block;
+}
+.logo {
+  width: 500px;
+}
+.saber {
+  width: 50px;
+}
+input:invalid {
+  background-color: #e59690;
+}
+input:focus {
+  background-color: #78abcc;
+}
+textarea:focus {
+  background-color: #78abcc;
+}
+.pilot {
+  display: block;
+
+}
+.sides {
+  display: block;
+}
